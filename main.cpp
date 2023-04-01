@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+/*
 int main(){
 	int num [10] = { 5, 3, 7, 9, 2, 4, 2, 3,5,3};
 	int sum = 0;
@@ -9,8 +9,6 @@ int main(){
     cout<<"las suma es: " << sum <<endl;
 	return 0;
      }
-     
-     
 int main(){
     int nums[6],n,mayor=0;
     cout<<"digite el numero de elementos: "<<endl;
@@ -25,15 +23,17 @@ int main(){
     cout<<"el elemento mayor es:"<<mayor<<endl;
     return 0;
 }
+ 
 int main(){
     int n, i, VA,nums[8];
-    cout<<"digite el numero de elementos: "<<endl;
+    cout<<"ingrese el numero de elementoss: "<<endl;
     cin>>n;
     for(int i=0;i<n;i++){
         cout<<i+1<<". Digite un numero: "<<endl;
         cin>>nums[i];
     }
-    cout<< "_____ASCENDENTE_______"<<endl;
+
+    cout<< "Acendente"<<endl;
     for( i=0;i<n;i++){
         cout<<"elementos "<<i+1<<" : "<<nums[i]<< endl;
     }
@@ -42,7 +42,7 @@ int main(){
         nums[i]=nums[n-1-i];
         nums[n-1-i]=VA;
     }
-    cout<< "_____DESCENDENTE______"<<endl;
+    cout<< "Descendente"<<endl;
     for( i=0;i<n;i++){
         cout<<"elementos "<<i+1<<" : "<<nums[i]<< endl;
     }
@@ -60,8 +60,6 @@ int main(){
     return 0;
 }
 
-
-
 int main(){
     string frut;
     int i,contador;
@@ -69,8 +67,8 @@ int main(){
     contador=0;
     for (i=0;i <9;i++){
         cout<<i+1<<" frutas: " <<   fruta[i]<<endl;}//nos imprime todos nuestros datos del arreglo
-    cout<<"***********************"<<endl;
-    cout<<"Escriba la fruta que quiere saber cuantas veces se repite: ";
+    cout<<"frutas"<<endl;
+    cout<<"Por favor escribe una fruta ";
     cin>>frut;
     for (i=0;i <9;i++){
         if (frut == fruta[i])
