@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-/*
+
 int main(){
 	int num [10] = { 5, 3, 7, 9, 2, 4, 2, 3,5,3};
 	int sum = 0;
@@ -9,6 +9,8 @@ int main(){
     cout<<"las suma es: " << sum <<endl;
 	return 0;
      }
+     
+     
 int main(){
     int nums[6],n,mayor=0;
     cout<<"digite el numero de elementos: "<<endl;
@@ -57,7 +59,9 @@ int main(){
     cout<<"las suma es: " << sum <<endl;
     return 0;
 }
-*/
+
+
+
 int main(){
     string frut;
     int i,contador;
